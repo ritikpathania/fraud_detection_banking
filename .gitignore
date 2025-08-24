@@ -1,0 +1,62 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs/Editors
+.idea/
+.fleet/
+.vscode/
+*.iml
+
+# Node / Vite
+node_modules/
+dist/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Java / Kotlin (Gradle & Maven common)
+.gradle/
+.build/
+out/
+build/
+target/
+.mvn/
+dependency-reduced-pom.xml
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.mypy_cache/
+.pytest_cache/
+.spyproject/
+
+# Laravel / PHP (Composer)
+gateway_laravel/vendor/
+gateway_laravel/.env
+gateway_laravel/.env.*
+gateway_laravel/storage/
+gateway_laravel/bootstrap/cache/
+gateway_laravel/public/build/
+gateway_laravel/node_modules/
+
+# Logs
+*.log
+logs/
+*.pid
+
+# Coverage / Reports
+coverage/
+lcov.info
+*.lcov
+*.coverage
+
+# Misc
+.env
+.env.*
+*.local

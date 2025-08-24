@@ -1,0 +1,25 @@
+{
+    "folders": [
+        { "path": "gateway_laravel" },
+        { "path": "service_kotlin" },
+        { "path": "service_python" }
+    ],
+    "runConfigs": [
+        {
+            "name": "Laravel Gateway",
+            "cmd": "php artisan serve",
+            "cwd": "gateway_laravel"
+        },
+        {
+            "name": "Kotlin Ktor",
+            "cmd": "./gradlew run",
+            "cwd": "service_kotlin"
+        },
+        {
+            "name": "Python FastAPI",
+            "cmd": "uvicorn main:app --reload --port 8001",
+            "cwd": "service_python"
+        }
+    ]
+}
+
