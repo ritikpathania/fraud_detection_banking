@@ -2,9 +2,9 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 
-class Transaction extends Model
+class Transaction extends Eloquent
 {
     protected $fillable = [
         'transaction_id',

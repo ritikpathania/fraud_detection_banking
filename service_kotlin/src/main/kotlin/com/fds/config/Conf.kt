@@ -1,5 +1,8 @@
 package com.fds.config
 
+import com.typesafe.config.ConfigFactory
+import io.ktor.server.config.*
+
 object Conf {
     private fun env(name: String) = System.getenv(name)
 
